@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formant-tools"
+version = "0.1.0"
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[tool.setuptools]
+packages = ["vowel_synthesis", "autocorrelation", "formant_tracker"]
